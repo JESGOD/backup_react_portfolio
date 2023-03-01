@@ -1,0 +1,31 @@
+/* fuentes google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Unbounded:wght@200;400;600&display=swap');
+/* fin fuentes google fonts */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btns{
+    @apply text-black font-Unbounded font-semibold  bg-gradient-to-r from-btnG1/100 to-btnG2 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-100 dark:focus:ring-cyan-100  rounded-lg text-sm px-5 py-2.5 text-center mr-2 my-5
+}
+.conic-gradient{
+    @apply bg-[conic-gradient(_#E29500_3.6deg,_#2C2C2C_0deg)]
+}
+.bg-principal{
+    @apply bg-gradient-to-r from-grayNb  to-blackNb
+}
+.bg-secundario{
+    @apply bg-gradient-to-r from-graySk  to-blackSk
+}
+
+.sm-flex-center{
+    @apply  sm:flex justify-center items-center
+}
+
+.center-absolute-items{
+    @apply top-2/4 left-2/4 transform -translate-x-2/4 -translate-y-2/4
+}
+
+
